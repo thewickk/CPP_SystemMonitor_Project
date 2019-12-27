@@ -1,24 +1,25 @@
 # CppND-System-Monitor
 
-# Compiler flags  to use std::filesystem: g++ -std=c++17 main.cpp -lstdc++fs
+### This is Project Two From the Udacity C++ Nanodegree Program [Udacity](https://www.udacity.com)
 
 Starter code for System Monitor Project in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
 
-Follow along with the classroom lesson to complete the project!
 
-![System Monitor](images/monitor.png)
 
-## Udacity Linux Workspace
-[Udacity](https://www.udacity.com/) provides a browser-based Linux [Workspace](https://engineering.udacity.com/creating-a-gpu-enhanced-virtual-desktop-for-udacity-497bdd91a505) for students. 
+## This project uses GCC 8 in order to take advantage of std::filesystem which is available in C++ 17 and is REQUIRED in order for this project to build. Below are the steps to install gcc 8+ on an Ubuntu 18.04 system and set it as the default:
+* `sudo apt update -y`
+* `sudo apt install gcc-8 g++-8`
+* `sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++8`
 
-You are welcome to develop this project on your local machine, and you are not required to use the Udacity Workspace. However, the Workspace provides a convenient and consistent Linux development environment we encourage you to try.
+You can verify that gcc 8+ is now the version you system is using by running these commands:
+* `sudo update-alternatives --display gcc`
+* `gcc --version`
 
 ## ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
 
-Within the Udacity Workspace, `.student_bashrc` automatically installs ncurses every time you launch the Workspace.
 
-If you are not using the Workspace, install ncurses within your own Linux environment: `sudo apt install libncurses5-dev libncursesw5-dev`
+Install ncurses within your own Linux environment: `sudo apt install libncurses5-dev libncursesw5-dev`
 
 ## Make
 This project uses [Make](https://www.gnu.org/software/make/). The Makefile has four targets:
@@ -29,15 +30,10 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 
 ## Instructions
 
-1. Clone the project repository: `git clone https://github.com/udacity/CppND-System-Monitor-Project-Updated.git`
+1. Clone the project repository: `git@github.com:thewickk/CPP_SystemMonitor_Project.git`
 
-2. Build the project: `make build`
+2. Change into the dircetory: `cd CPP_SystemMonitor_Project` and build the project: `make build`
 
 3. Run the resulting executable: `./build/monitor`
 ![Starting System Monitor](images/starting_monitor.png)
 
-4. Follow along with the lesson.
-
-5. Implement the `System`, `Process`, and `Processor` classes, as well as functions within the `LinuxParser` namespace.
-
-6. Submit!
