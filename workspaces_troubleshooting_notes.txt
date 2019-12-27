@@ -1,0 +1,18 @@
+version=3.16.2
+build=3
+mkdir ~/temp
+cd ~/temp
+wget https://cmake.org/files/v3.16/cmake-3.16.2.tar.gz
+tar -xzvf cmake-3.16.2.tar.gz
+cd cmake-3.16.2/
+
+
+https://github.com/udacity/CppND-System-Monitor-Project-Updated.git
+
+https://github.com/thewickk/CPP_SystemMonitor_Project.git
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-update --fix-missing
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8
+sudo update-alternatives --config gcc
