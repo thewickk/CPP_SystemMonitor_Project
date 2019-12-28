@@ -1,14 +1,11 @@
 # CppND-System-Monitor
 
-### This is Project Two From the Udacity C++ Nanodegree Program [Udacity](https://www.udacity.com)
+### This is Project Two From the [Udacity C++ Nanodegree Program](https://www.udacity.com)
 
-Starter code for System Monitor Project in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
-
-
-
-### This project uses GCC 8 in order to take advantage of std::filesystem which is available in C++ 17 and is REQUIRED in order for this project to build. 
+**This project uses GCC 8 in order to take advantage of std::filesystem which is available in C++ 17 and is REQUIRED in order for this project to build.**
+ 
 ### Below are the steps I used to successfully build and run the project using the Workspace provided by Udacity:
-* - Enable the GPU in the Udacity Workspace and clicke the "GO TO DESKTOP" button to launch the Project Workspace GUI
+* - Enable the GPU in the Udacity Workspace and click the "GO TO DESKTOP" button to launch the Project Workspace GUI
 * - Launch the terminal avialiable on the Desktop
 * - If desired change to the /home/workspace directory, but you can clone the project wherever you choose
 * - Clone the project: `git clone https://github.com/thewickk/CPP_SystemMonitor_Project.git`
@@ -25,7 +22,7 @@ Starter code for System Monitor Project in the Object Oriented Programming Cours
 
 1. Change into the repository directory: `cd CPP_SystemMonitor_Project.git`
 
-2. Build the project: `make builde`
+2. Build the project: `make build`
 
 3. Launch the application: `./build/monitor`
 
