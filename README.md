@@ -20,7 +20,7 @@
 
 ## Build and Run the Program
 
-1. Change into the repository directory: `cd CPP_SystemMonitor_Project.git`
+1. Change into the repository directory: `cd CPP_SystemMonitor_Project`
 
 2. Build the project: `make build`
 
